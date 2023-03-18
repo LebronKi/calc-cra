@@ -54,25 +54,25 @@ body{
 @media(min-width: 320px) and (max-width: 425px){
    .calculator{
        display: grid;
-       grid-template-columns: repeat(4, 70px);
-       grid-template-rows: repeat(4 , 70px);
+       grid-template-columns: repeat(4,70px);
+       grid-template-rows: repeat(4,70px);
        justify-content: center;
        margin: 0 auto;
        gap: 3px;
        font-family: "Helvetica", sans-serif;
-       width: 320px;
+       width: 290px;
    }
     h1{
         font-size: 28px;
         font-family: "Helvetica", sans-serif;
         width: 300px;
-        margin: 100px auto;
+        margin: 50px auto 50px;
     }
     .App{
         width: 320px;
         margin: 0 auto;
     }
     .display{
-        width:290px;
+        max-width:290px;
     }
 }
