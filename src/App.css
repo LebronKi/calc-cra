@@ -54,8 +54,8 @@ body{
 @media(min-width: 320px) and (max-width: 425px){
    .calculator{
        display: grid;
-       grid-template-columns: repeat(4, 77px);
-       grid-template-rows: repeat(4 , 77px);
+       grid-template-columns: repeat(4, 70px);
+       grid-template-rows: repeat(4 , 70px);
        justify-content: center;
        margin: 0 auto;
        gap: 3px;
