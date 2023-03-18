@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4 , 100px);
+    justify-content: center;
+    margin: 0 auto;
+    gap: 3px;
+    font-family: "Helvetica", sans-serif;
+    width: 409px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.operator{
+    background: #15159f;
+    color:white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button{
+    border-radius: 18%;
+    font-size: 45px;
+    background: #e3dfdf;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.keys{
+    background: #252222;
+    color:white;
 }
-
-.App-link {
-  color: #61dafb;
+.btn:hover{
+    color:white;
+    background: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.keys:hover{
+    color:black;
+    background: white;
+}
+.operator:hover{
+    color:black;
+    background: white;
+}
+h1{
+    width: 409px;
+    height: 45px;
+    margin: 50px auto;
+    text-align: center;
+    color: #e3dfdf;;
+}
+.display{
+    text-align: right;
+    font-size: 40px;
+    width: 409px;
+    font-weight: 700;
+    margin: 10px auto;
+    color: #e3dfdf;
+}
+body{
+    background: darkslategray;
+}
+@media(min-width: 320px) and (max-width: 425px){
+   .calculator{
+       display: grid;
+       grid-template-columns: repeat(4, 77px);
+       grid-template-rows: repeat(4 , 77px);
+       justify-content: center;
+       margin: 0 auto;
+       gap: 3px;
+       font-family: "Helvetica", sans-serif;
+       width: 320px;
+   }
+    h1{
+        font-size: 28px;
+        font-family: "Helvetica", sans-serif;
+        width: 300px;
+        margin: 100px auto;
+    }
+    .App{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .display{
+        width:320px;
+    }
 }
