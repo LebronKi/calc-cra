@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/calc-cra/static/css/main.83e5daca.css",
+    "main.js": "/calc-cra/static/js/main.df44a151.js",
+    "static/js/787.065caf16.chunk.js": "/calc-cra/static/js/787.065caf16.chunk.js",
+    "index.html": "/calc-cra/index.html",
+    "main.83e5daca.css.map": "/calc-cra/static/css/main.83e5daca.css.map",
+    "main.df44a151.js.map": "/calc-cra/static/js/main.df44a151.js.map",
+    "787.065caf16.chunk.js.map": "/calc-cra/static/js/787.065caf16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83e5daca.css",
+    "static/js/main.df44a151.js"
+  ]
+}
